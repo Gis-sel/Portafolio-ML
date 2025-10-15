@@ -2,7 +2,6 @@
 ## Proyectos
 
 ### 1. Clasificación con Perceptrón Multicapa (MLP)
-![Mini](./assets/p1_mini.png)
 **Enlace:** [Ver Notebook](./Clasificador_MPL.ipynb)  
 **Objetivo:** Entrenar y evaluar un MLP para predecir la clase objetivo y compararlo con un baseline simple.  
 **Tecnologías:** Python, NumPy, pandas, scikit-learn, Matplotlib  
