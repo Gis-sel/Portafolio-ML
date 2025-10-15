@@ -3,7 +3,6 @@
 
 ### 1. Clasificación con Perceptrón Multicapa (MLP)
 
-**Enlace:** [Ver Notebook](./Clasificador_MPL.ipynb)  
 **Objetivo:** Entrenar y evaluar un MLP para predecir la clase objetivo y compararlo con un baseline simple.  
 **Tecnologías:** Python, NumPy, pandas, scikit-learn, Matplotlib  
 **Resultados:** Evaluación con Accuracy, Precision, Recall, F1; matriz de confusión y, si corresponde, ROC/AUC.  
