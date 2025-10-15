@@ -1,4 +1,3 @@
----
 ## Proyectos
 
 ### 1. Clasificación con Perceptrón Multicapa (MLP)
