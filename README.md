@@ -1,6 +1,7 @@
 ## Proyectos
 
 ### 1. Clasificación con Perceptrón Multicapa (MLP)
+- [Notebook Clasificador MLP](https://github.com/Gis-sel/Portafolio-ML/blob/main/ProyectoMLP/Clasificador_MPL.ipynb)
 **Objetivo:** Entrenar y evaluar un MLP para predecir la clase objetivo y compararlo con un baseline simple  
 **Tecnologías:** Python, NumPy, pandas, scikit-learn, Matplotlib
 **Resultados:** Evaluación con Accuracy, Precision, Recall, F1; matriz de confusión y, si corresponde, ROC/AUC
@@ -10,6 +11,7 @@ Próximo paso: búsqueda bayesiana y calibración.
 ---
 
 ### 2. Clustering jerárquico con PCA y t-SNE
+- [Notebook Clustering Jerárquico + PCA + t-SNE](https://github.com/Gis-sel/Portafolio-ML/blob/main/ProyectoClusterjerarquicoPCA/ClusteringJerarquico_PCA_TSNE.ipynb)
 **Objetivo:** Explorar la estructura interna del dataset con reducción de dimensionalidad (PCA/t-SNE) y agrupar con jerárquico para segmentos interpretables.  
 **Tecnologías:** Python, pandas, scikit-learn (PCA), SciPy (linkage/dendrogram), Matplotlib  
 **Resultados:** Varianza explicada acumulada (PCA), visualización 2D/3D (t-SNE) y calidad de clusters con Silhouette; opcional: Davies–Bouldin y Calinski–Harabasz.  
@@ -18,6 +20,7 @@ Próximo paso: búsqueda bayesiana y calibración.
 ---
 
 ### 3. Clustering con DBSCAN / HDBSCAN
+- [Notebook DBSCAN & HDBSCAN](https://github.com/Gis-sel/Portafolio-ML/blob/main/ProyectoDBSCAN_HDBSCAN/cluster_DBSCAN_HDBSCAN.ipynb)
 **Objetivo:** Detectar clusters por densidad y puntos ruidosos en datos con geometrías no esféricas.  
 **Tecnologías:** Python, pandas, scikit-learn (DBSCAN), hdbscan, Matplotlib  
 **Resultados:** Número de clusters y porcentaje de ruido; calidad de agrupamiento con Silhouette; persistencia de clusters en HDBSCAN.  
@@ -26,6 +29,7 @@ Próximo paso: búsqueda bayesiana y calibración.
 ---
 
 ### 4. Regresión Lineal, Ridge y Lasso (comparativo)
+- [Notebook Reducción Dimensionalidad PCA](https://github.com/Gis-sel/Portafolio-ML/blob/main/ProyectoReduccionDimPCA/Reduccion_dimensionalidad_PCA.ipynb)
 **Objetivo:** Predecir una variable continua comparando OLS contra regularización para controlar sobreajuste.  
 **Tecnologías:** Python, pandas, scikit-learn, Matplotlib  
 **Resultados:** RMSE, MAE y R²; validación cruzada (K-Fold) y curvas de aprendizaje.  
@@ -34,6 +38,7 @@ Próximo paso: búsqueda bayesiana y calibración.
 ---
 
 ### 5. SVM para Clasificación
+- [Scoring Crédito RN](https://github.com/Gis-sel/Portafolio-ML/blob/main/ProyectoScoringCreditoRN/ScoringCred_RedesNeuronalesProfundas.ipynb)
 **Objetivo:** Clasificar con SVM lineal y con kernel RBF, comparando contra baselines.  
 **Tecnologías:** Python, pandas, scikit-learn, Matplotlib  
 **Resultados:** Accuracy, Precision/Recall (macro), F1, ROC/AUC (binario) y matriz de confusión.  
@@ -42,6 +47,7 @@ Próximo paso: búsqueda bayesiana y calibración.
 ---
 
 ### 6. K-NN Clasificación y Análisis de Vecindad
+- [Notebook Detección de Anomalías PCA/DBSCAN/HDBSCAN](https://github.com/Gis-sel/Portafolio-ML/blob/main/ProyectoSegmentacion_Deteccion/DetAnomalias_PCronicos_PCA_DBSCAN_HBBSCAN.ipynb)
 **Objetivo:** Evaluar K-NN en datasets con distintas escalas y densidad, estudiando su sensibilidad al ruido.  
 **Tecnologías:** Python, pandas, scikit-learn, Matplotlib  
 **Resultados:** Curva de error vs K, Accuracy/F1 macro, matriz de confusión y validación K-Fold; pruebas con distintas distancias (Euclidiana/Minkowski).  
@@ -50,6 +56,7 @@ Próximo paso: búsqueda bayesiana y calibración.
 ---
 
 ### 7. Árboles de Decisión y Random Forest
+- [Notebook Transfer Learning EfficientNet](https://github.com/Gis-sel/Portafolio-ML/blob/main/ProyectoTranferLearningconeff/TLearning_Efficent.ipynb)
 **Objetivo:** Comparar la interpretabilidad de Árboles con el desempeño y robustez de Random Forest.  
 **Tecnologías:** Python, pandas, scikit-learn, Matplotlib  
 **Resultados:** Accuracy/F1 (clasificación) o RMSE/R² (regresión); OOB score en Random Forest e importancias de variables.  
@@ -58,6 +65,7 @@ Próximo paso: búsqueda bayesiana y calibración.
 ---
 
 ### 8. Pipeline + GridSearchCV (validación y despliegue simple)
+- [Notebook NLP Clínico BERT](https://github.com/Gis-sel/Portafolio-ML/blob/main/ProyectoNLP_clinicBert/NLP_Clinic_Bert.ipynb)
 **Objetivo:** Construir un pipeline reproducible con preprocesamiento, modelo y selección de hiperparámetros para un flujo sólido de entrenamiento y evaluación.  
 **Tecnologías:** Python, pandas, scikit-learn, joblib  
 **Resultados:** Mejor conjunto de hiperparámetros con GridSearchCV, validación (estratificada) K-Fold y métricas principales según la tarea (F1/ROC AUC o RMSE/R²).  
